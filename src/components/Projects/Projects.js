@@ -2,12 +2,20 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+// import leaf from "../../Assets/Projects/leaf.png";
+// import emotion from "../../Assets/Projects/emotion.png";
+// import editor from "../../Assets/Projects/codeEditor.png";
+// import chatify from "../../Assets/Projects/chatify.png";
+// import suicide from "../../Assets/Projects/suicide.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
+import expense from '../../Assets/Projects/Exoense-Tracker.png'
+import mern from '../../Assets/Projects/Mern-Auth.png'
+import spotify from '../../Assets/Projects/spotify-clone.png'
+import gemini from '../../Assets/Projects/gemini-clone.png'
+import happymeals from '../../Assets/Projects/Happy-meals.png'
+import realestate from '../../Assets/Projects/Real-esatate.png'
+
+
 
 function Projects() {
   return (
@@ -23,68 +31,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={expense}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Expense-Tracker"
+              description="My Expense Tracker allows users to record, manage, and monitor their income and expenses in real-time. It features secure user authentication, intuitive dashboards, and visual insights like charts for better financial tracking. The app uses MongoDB for data storage, Express.js and Node.js for backend APIs, and React for a responsive frontend interface."
+              ghLink="https://github.com/sahritika07/Expense-Tracker-MERN-App"
+              demoLink="/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={mern}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Mern-Auth"
+              description="My Authentication App enables user registration, login, and password change functionalities. It includes OTP-based email verification to ensure valid user identity during sign-up and sensitive actions. The backend handles secure authentication using JWT and bcrypt, while the frontend offers a smooth, user-friendly experience with React.."
+              ghLink="https://github.com/sahritika07/MERN-Auth"
+              demoLink="/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={spotify}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Spotify-Clone"
+              description="My Spotify Clone is a music streaming web application that replicates core Spotify features using the MERN stack. It allows users to browse, play, and manage songs and playlists with a sleek, responsive UI. The app includes user authentication, real-time audio playback, and dynamic content rendering for a seamless experience."
+              ghLink="https://github.com/sahritika07/SpotifyCloneReact"
+              demoLink="https://spotify-clone-ritika.netlify.app"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={gemini}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Gemini-Clone"
+              description="My Gemini Clone is a React-based AI chatbot interface inspired by Google’s Gemini. It allows users to input queries and receive smart, context-aware responses in a conversational format. The app features a modern UI, handles API calls for real-time responses, and offers a user-friendly experience similar to popular AI chat tools."
+              ghLink="https://github.com/sahritika07/Gemini-Ai"
+              demoLink="https://ritika-gemini-ai.netlify.app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={happymeals}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Happy-Meals"
+              description="My Food Delivery Website is a React-based application that allows users to browse restaurants, explore menus, and place food orders online. It features a clean, responsive UI with smooth navigation, cart functionality, and real-time updates. The app provides an engaging user experience with dynamic content rendering and seamless order management."
+              ghLink="https://github.com/sahritika07/Food-Delivery-Website-HaapyMeals"
+              demoLink=" https://food-delivery-app-happymeals.netlify.app" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={realestate}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Real-Estate"
+              description="My Real Estate App is a modern, responsive web application built with React that showcases property listings with smooth navigation and an intuitive UI. It allows users to explore, filter, and view property details dynamically. Framer Motion is used to enhance user experience with sleek animations and interactive transitions throughout the app."
+              ghLink="https://github.com/sahritika07/Real-Estate-Project-Reactjs"
+              demoLink="/"    
             />
           </Col>
         </Row>
