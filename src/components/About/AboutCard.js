@@ -9,8 +9,8 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify"  }}>
             ➢ Hi Everyone, I am <span className="purple">Ritika Sah </span>
-            from <span className="purple"> Ranchi,Jharkhand.</span> <br/>
-           ➢ I am currently employed as a software developer at Aadrika Enterprises. </p>
+            from <span className="purple"> Ranchi,Jharkhand.</span> I am currently employed as a software developer at Aadrika Enterprises.  <br/>
+           </p>
             <br />
         
             <p style={{ textAlign: "justify"  }}>
@@ -20,7 +20,7 @@ function AboutCard() {
             </p>
             <br />
             <p style={{ textAlign: "justify"  }}>
-           ➢ Apart from coding, some other activities that I love to do!
+           ➢  Apart from coding, some other activities that I love to do!
             </p>
          
           <ul>
