@@ -20,16 +20,15 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+             ➣ I'm Ritika Sah, a developer with 1.5 years of experience crafting modern web interfaces and interactive UI components using React.js, Tailwind CSS, and the MERN stack.
               <br />
-              <br />I am fluent in classics like
+              <br />➣ I am fluent in classics like
               <i>
                 <b className="purple"> Javascript, React js, Node js, Express js, MongoDB and Postgres sql </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              ➣ My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
@@ -37,6 +36,12 @@ function Home2() {
                   Artificial Intelligence
                 </b>
               </i>
+              <br />
+  
+               <br />📌 
+              
+                Let’s connect if you’re looking for a software developer who’s creative, collaborative, and committed to growth!
+             
               <br />
               <br />
               {/* Whenever possible, I also apply my passion for developing products
