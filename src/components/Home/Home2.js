@@ -20,7 +20,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-             ➣ I'm Ritika Sah, <span className="purple"> a software developer with 1.5 years of experience  </span>   crafting modern web interfaces and interactive UI components using <span className=""> React.js, Tailwind CSS, and the MERN stack. </span> 
+             ➣ I'm Ritika Sah, <span className="purple"> a software developer with 1.5 years of experience  </span>   crafting modern web interfaces and interactive UI components using <span className=""> React.js, Tailwind CSS, and MERN stack. </span> 
               <br />
               <br />➣ I am fluent in classics like
               <i>
