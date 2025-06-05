@@ -9,12 +9,13 @@ import Home2 from "./Home2";
 import Type from "./Type";
 // import Contact from "./Contact";
 
+
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
-        <Container className="home-content">
+        <Container className="home-content ">
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
