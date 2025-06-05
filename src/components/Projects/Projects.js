@@ -8,12 +8,13 @@ import Particle from "../Particle";
 // import chatify from "../../Assets/Projects/chatify.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 // import bitsOfCode from "../../Assets/Projects/blog.png";
-import expense from '../../Assets/Projects/Exoense-Tracker.png'
+// import expense from '../../Assets/Projects/Exoense-Tracker.png'
 import mern from '../../Assets/Projects/Mern-Auth.png'
 import spotify from '../../Assets/Projects/spotify-clone.png'
 import gemini from '../../Assets/Projects/gemini-clone.png'
 import happymeals from '../../Assets/Projects/Happy-meals.png'
 import realestate from '../../Assets/Projects/Real-esatate.png'
+import elitestay from '../../Assets/Projects/elitestay.png'
 
 
 
@@ -31,12 +32,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={expense}
+              imgPath={elitestay}
               isBlog={false}
-              title="Expense-Tracker"
-              description="My Expense Tracker allows users to record, manage, and monitor their income and expenses in real-time. It features secure user authentication, intuitive dashboards, and visual insights like charts for better financial tracking. The app uses MongoDB for data storage, Express.js and Node.js for backend APIs, and React for a responsive frontend interface."
-              ghLink="https://github.com/sahritika07/Expense-Tracker-MERN-App"
-              demoLink="/"
+              title="Hotel Website-Next js"
+              description=" Designed and developed a dynamic Hotel Management Website using Next.js, Tailwind CSS, and Framer Motion to
+deliver a responsive and interactive user interface. Built reusable components for room listings, booking forms,
+amenities, and customer reviews to simulate real-world hotel functionalities. Integrated
+Framer Motion to add smooth animations and page transitions, enhancing the overall user experience."
+
+              ghLink="/"
+              demoLink="https://hotel-management-website-git-main-ritikas-projects-30ce1f89.vercel.app/"
             />
           </Col>
 

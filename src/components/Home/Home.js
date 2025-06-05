@@ -1,9 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+// import homeLogo from "../../Assets/home-main.svg";
+import girlcoder from "../../Assets/girlcoder.png";
+// import girlcoder from "../../Assets/coderrr.webp";
+
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+// import Contact from "./Contact";
 
 function Home() {
   return (
@@ -27,13 +31,32 @@ function Home() {
               </h1>
 
               <div style={{ padding: 40, textAlign: "left" }}>
-                <Type />
-              </div>
+  <Type />
+  <br />
+  {/* <a href="/contact">
+    <button
+      style={{
+        marginTop: "20px",
+        backgroundColor: "#6c63ff",
+        color: "#fff",
+        border: "none",
+        padding: "10px 20px",
+        borderRadius: "25px",
+        fontSize: "16px",
+        cursor: "pointer",
+        transition: "background-color 0.3s ease",
+      }}
+    >
+      Connect
+    </button>
+  </a> */}
+</div>
+
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={girlcoder}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
@@ -43,6 +66,8 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      {/* <Contact/> */}
+      
     </section>
   );
 }
