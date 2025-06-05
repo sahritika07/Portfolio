@@ -9,16 +9,20 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify"  }}>
             ➢ Hi Everyone, I am <span className="purple">Ritika Sah </span>
-            from <span className="purple"> Ranchi,Jharkhand.</span> I am currently employed as a software developer at Aadrika Enterprises.  <br/>
+            from <span className="purple"> Ranchi,Jharkhand.</span> I am currently employed as a software developer at O2N Enterprises.  <br/>
            </p>
             <br />
         
             <p style={{ textAlign: "justify"  }}>
            
-           ➢ I have completed Graduation in Bachelor's of Computer Application from Ranchi University. I scored 86% in my Graduation . 
+           ➢ Armed with a Bachelor's in Computer Application (86%) and a curiosity that never sleeps, I blend logic with creativity to build digital experiences that not only work—but wow.
             <br />
             </p>
             <br />
+             <p style={{ textAlign: "justify"  }}>
+           ➢  I am fluent in classics like Javascript, React js, Next js, Node js, Express js, MongoDB and Postgres sql
+            </p>
+            <br/>
             <p style={{ textAlign: "justify"  }}>
            ➢  Apart from coding, some other activities that I love to do!
             </p>
