@@ -84,63 +84,103 @@ function Home() {
   return (
     <>
       <style jsx>{`
-        @media (max-width: 768px) {
-          .home-header {
-            text-align: center !important;
-            padding: 20px 15px;
-          }
-          
-          .home-header h1 {
-            font-size: clamp(1.8rem, 5vw, 2.5rem) !important;
-          }
-          
-          .main-name {
-            font-size: clamp(1.5rem, 4vw, 2rem) !important;
-          }
-          
-          .home-content {
-            padding: 20px 0;
-          }
-          
-          .type-container {
-            padding: 20px !important;
-            text-align: center !important;
-          }
-          
-          .home-image {
-            text-align: center;
-            margin-top: 30px;
-          }
-          
-          .home-image img {
-            max-height: 300px !important;
-            width: auto;
-          }
-        }
+  @media (max-width: 768px) {
+    .home-section {
+      padding-top: 50px !important;
+      padding-bottom: 30px !important;
+    }
+    
+    .home-content {
+      padding: 10px 0 !important;
+    }
+    
+    .home-header {
+      text-align: center !important;
+      padding: 10px 15px !important;
+    }
+    
+    .home-header h1 {
+      font-size: clamp(1.8rem, 5vw, 2.5rem) !important;
+      padding-bottom: 8px !important;
+      line-height: 1.3 !important;
+    }
+    
+    .main-name {
+      font-size: clamp(1.5rem, 4vw, 2rem) !important;
+      line-height: 1.2 !important;
+    }
+    
+    .heading-name {
+      line-height: 1.4 !important;
+      margin-bottom: 15px !important;
+    }
+    
+    .type-container {
+      padding: 20px 10px !important;
+      text-align: center !important;
+    }
+    
+    .home-image {
+      text-align: center;
+      margin-top: 20px !important;
+      padding-bottom: 10px !important;
+    }
+    
+    .home-image img {
+      max-height: 300px !important;
+      width: auto;
+    }
+  }
 
-        @media (max-width: 576px) {
-          .home-header h1 {
-            font-size: clamp(1.5rem, 6vw, 2rem) !important;
-            padding-bottom: 10px !important;
-          }
-          
-          .main-name {
-            font-size: clamp(1.2rem, 5vw, 1.8rem) !important;
-          }
-          
-          .type-container {
-            padding: 15px !important;
-          }
-          
-          .home-image img {
-            max-height: 250px !important;
-          }
-        }
+  @media (max-width: 576px) {
+    .home-section {
+      padding-top: 30px !important;
+      padding-bottom: 20px !important;
+    }
+    
+    .home-content {
+      padding: 5px 0 !important;
+    }
+    
+    .home-header {
+      padding: 5px 10px !important;
+    }
+    
+    .home-header h1 {
+      font-size: clamp(1.5rem, 6vw, 2rem) !important;
+      padding-bottom: 5px !important;
+      line-height: 1.2 !important;
+      margin-bottom: 8px !important;
+    }
+    
+    .main-name {
+      font-size: clamp(1.2rem, 5vw, 1.8rem) !important;
+      line-height: 1.1 !important;
+    }
+    
+    .heading-name {
+      line-height: 1.3 !important;
+      margin-bottom: 10px !important;
+    }
+    
+    .type-container {
+      padding: 15px 5px !important;
+    }
+    
+    .home-image {
+      margin-top: 15px !important;
+      padding-bottom: 5px !important;
+    }
+    
+    .home-image img {
+      max-height: 250px !important;
+    }
+  }
 
-        .wave {
-          display: inline-block;
-        }
-      `}</style>
+  .wave {
+    display: inline-block;
+  }
+`}</style>
 
       <section>
         <Container fluid className="home-section" id="home">

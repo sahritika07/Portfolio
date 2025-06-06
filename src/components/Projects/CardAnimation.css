@@ -1,0 +1,50 @@
+.project-card-view {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-card-view:hover {
+  box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.3);
+}
+
+.project-card-view .card-img-top {
+  transform-style: preserve-3d;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.2s ease-out;
+}
+
+.project-card-view .card-body {
+  transform: translateZ(20px);
+  position: relative;
+  z-index: 1;
+}
+
+.project-card-view .card-title {
+  transform: translateZ(30px);
+}
+
+.project-card-view button {
+  transform: translateZ(40px);
+}
+
+.project-section {
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+}
+
+.project-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+  transform-style: preserve-3d;
+}
