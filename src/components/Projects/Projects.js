@@ -40,7 +40,7 @@ deliver a responsive and interactive user interface. Built reusable components f
 amenities, and customer reviews to simulate real-world hotel functionalities. Integrated
 Framer Motion to add smooth animations and page transitions, enhancing the overall user experience."
 
-              ghLink="/"
+              ghLink="https://github.com/sahritika07/Hotel-Management-Website-Nextjs"
               demoLink="https://hotel-management-website-git-main-ritikas-projects-30ce1f89.vercel.app/"
             />
           </Col>
