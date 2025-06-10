@@ -349,6 +349,8 @@ function AboutCard() {
           </p>
         </div>
 
+        
+
         <div
           className={`square-box ${isDragging === 2 ? "dragging" : ""}`}
           ref={(el) => (boxRefs.current[2] = el)}
